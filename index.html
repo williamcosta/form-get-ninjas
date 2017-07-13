@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Ninjas - Formulário Cabelereiros</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./build/assets/css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="menu" role="navigation">
+                <div class="brand">
+                    <div class="brand__icon">
+                        <img src="./build/assets/images/estetica.svg" alt="Estética">
+                    </div>
+                    <h1 class="brand__name">
+                        <img src="./build/assets/images/getninjas.svg" alt="GetNinjas">
+                        <span>Estética</span>
+                    </h1>
+                </div>
+            </nav>
+            <section class="banner" role="banner">
+                <div class="banner__container">
+                    <div class="banner__content">
+                        <h1>Os melhores Cabeleireiros.</h1>
+                        <h2>Faça um pedido. Receba orçamentos. Contrate o melhor.</h2>
+                    </div>
+                    <div class="banner__image">
+                        <img src="./build/assets/images/cabeleireiro.png" alt="Cabeleireiro">
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="container" role="main">
+            <form class="form-service" novalidate>
+                <div class="form-service__title">
+                    <h2 class="title title--big title--blue">Explique o que você precisa</h2>
+                    <small class="title title--small title--blue">Peça orçamento grátis, online!</small>
+                </div>
+                <fieldset id="form-service" class="form-service__content"></fieldset>
+                <fieldset id="form-user" class="form-service__content form-service__content--hide"></fieldset>
+                <div class="form-service__action">
+                    <button type="button" id="button-next" data-form="form-service" title="Buscar Profissionais" class="button button--primary">Buscar Profissionais</button>
+                    <button type="button" id="button-submit" data-form="form-user" title="Finalizar" class="button button--primary button--hide">Finalizar</button>
+                </div>
+                <div class="tabs">
+                    <div class="tabs__item tabs__item--active">1. Seu pedido</div>
+                    <div class="tabs__item" data-form="form-user">2. Seus dados</div>
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="menu-footer" role="menubar">
+                    <li a="#" class="menu-footer__item" role="menuitem">Quem Somos</li>
+                    <li a="#" class="menu-footer__item" role="menuitem">Guia do GetNinjas</li>
+                    <li a="#" class="menu-footer__item" role="menuitem">Ajuda</li>
+                    <li a="#" class="menu-footer__item" role="menuitem">Termos de uso</li>
+                </ul>
+            </nav>
+            <div class="footer__copyright">
+                <a href="#" class="brand__name">GetNinjas</a>
+                <div class="copyright">
+                    <p>©2011-2017, GetNinjas Serviços de Internet. CNPJ 14.127.813/0001-51 -</p> 
+                    <address>Av. Rebouças, 2472 - Pinheiros São Paulo - SP</address>
+                </div>
+            </div>
+        </footer>
+        <!--scripts-->
+        <script type="text/javascript" src="./build/main.js"></script>
+    </body>
+</html>

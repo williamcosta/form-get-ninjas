@@ -1,0 +1,21 @@
+{
+  "name": "test-get-ninjas",
+  "version": "1.0.0",
+  "description": "Teste para a vaga de Frontend Developer para a GetNinjas.",
+  "main": "./build/main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch",
+    "server": "./node_modules/.bin/webpack-dev-server --inline --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
