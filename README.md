@@ -18,7 +18,7 @@ Esse comando instala todas as dependências do projeto.
 Após instalar todas as dependências, rode o comando no terminal:
 
 ```sh
-$ npm run sever
+$ npm run server
 ```
 
 Isso irá iniciar o servidor. A partir de agora é só acessar o endereço [http://localhost:8080](http://localhost:8080)
